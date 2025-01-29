@@ -1,0 +1,6 @@
+@DBrokerAPI_HostAddress = http://localhost:5059
+
+GET {{DBrokerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

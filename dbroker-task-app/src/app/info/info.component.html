@@ -1,0 +1,54 @@
+<div class="container2">
+            
+<img src="img/design2.png" class="de1">
+<form class="row g-3" *ngIf="data">
+   
+ <div class=" col-md-4 ">  
+     <label for="company-name-en" class="form-label fw-bold">اسم الشركة (EN)</label>
+     <input type="text" class="form-control" id="company-name-en"  [value]="data.nameEn" readonly placeholder="ادخل اسم الشركة بالانجليزي">
+ </div>
+
+ <div class="  col-md-4">
+     <label class="form-label fw-bold" for="company-name-ar">اسم الشركة (AR)</label>
+     <input class="form-control" type="text" id="company-name-ar" [value]="data.nameAr" readonly placeholder="ادخل اسم الشركة بالعربي ">
+ </div>
+
+ <div class=" col-md-4">
+     <label for="company-id" class="form-label fw-bold">رقم الشركة</label>
+     <input type="tel" class="form-control" id="company-id" [value]="data.crNumber" readonly maxlength="10" placeholder="0123456789">
+ </div>
+
+ <div class=" col-md-4">
+     <label class="form-label fw-bold" for="license-date">تاريخ بداية الوثيقة</label>
+     <input class="form-control" type="date" id="license-date" placeholder="2024-07-04">
+ </div>
+
+ <div class=" col-md-4">
+   <label class="form-label fw-bold" for="phone-number">رقم الجوال</label>
+ <input class="form-control" type="tel" id="phone-number" maxlength="10" placeholder="أدخل رقم الجوال (10 أرقام)">
+ 
+</div>
+
+
+ <div class=" col-md-4">
+     <label class="form-label fw-bold" for="classification">إعدادات المنشأة لغرض التصنيف</label>
+     <select class="form-select" id="classification">
+         <option>أقل من 3 ملايين ريال</option>
+         <option>اكثر من 3 ملايين ريال</option>
+        
+     </select>
+ </div>
+
+ <div class="form-buttons col-md-4">
+     <button type="button"  class="back-button">عودة</button>
+     </div>
+     
+     <div class="form-buttons col-md-4">
+     
+ </div>
+     
+     <div class="form-buttons col-md-4">
+     <button type="submit" (click)="onNext()" class="next-button">التالي</button>
+ </div>
+</form>
+</div>

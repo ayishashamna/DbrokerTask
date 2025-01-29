@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fpjx0bY1XtOvhkR0qrenRcLbwYQsYe5sKvLv+D2WV5k=",
+  "Source": "DBrokerAPI",
+  "BasePath": "_content/DBrokerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

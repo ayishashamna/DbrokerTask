@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|d:\\sample\\dbrokertask\\dbrokerapi\\dbrokerapi\\controllers\\crcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|solutionrelative:dbrokerapi\\controllers\\crcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|d:\\sample\\dbrokertask\\dbrokerapi\\dbrokerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|solutionrelative:dbrokerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|d:\\sample\\dbrokertask\\dbrokerapi\\dbrokerapi\\model\\crdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|solutionrelative:dbrokerapi\\model\\crdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Migrations\\20250128155625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBrokerAPI\\Migrations\\20250128155625_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|d:\\sample\\dbrokertask\\dbrokerapi\\dbrokerapi\\dbrokerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|solutionrelative:dbrokerapi\\dbrokerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|d:\\sample\\dbrokertask\\dbrokerapi\\dbrokerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|solutionrelative:dbrokerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|d:\\sample\\dbrokertask\\dbrokerapi\\dbrokerapi\\data\\crdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5942070D-D8C2-4433-A954-E7282B309AA0}|DBrokerAPI\\DBrokerAPI.csproj|solutionrelative:dbrokerapi\\data\\crdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250128155625_initial.cs",
+              "DocumentMoniker": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Migrations\\20250128155625_initial.cs",
+              "RelativeDocumentMoniker": "DBrokerAPI\\Migrations\\20250128155625_initial.cs",
+              "ToolTip": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Migrations\\20250128155625_initial.cs",
+              "RelativeToolTip": "DBrokerAPI\\Migrations\\20250128155625_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:56:25.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBrokerAPI",
+              "DocumentMoniker": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\DBrokerAPI.csproj",
+              "RelativeDocumentMoniker": "DBrokerAPI\\DBrokerAPI.csproj",
+              "ToolTip": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\DBrokerAPI.csproj",
+              "RelativeToolTip": "DBrokerAPI\\DBrokerAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T15:53:40.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrDbContext.cs",
+              "DocumentMoniker": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Data\\CrDbContext.cs",
+              "RelativeDocumentMoniker": "DBrokerAPI\\Data\\CrDbContext.cs",
+              "ToolTip": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Data\\CrDbContext.cs",
+              "RelativeToolTip": "DBrokerAPI\\Data\\CrDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:44:07.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DBrokerAPI\\Program.cs",
+              "ToolTip": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Program.cs",
+              "RelativeToolTip": "DBrokerAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:43:14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "DBrokerAPI\\appsettings.json",
+              "ToolTip": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\appsettings.json",
+              "RelativeToolTip": "DBrokerAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T15:41:38.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrController.cs",
+              "DocumentMoniker": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Controllers\\CrController.cs",
+              "RelativeDocumentMoniker": "DBrokerAPI\\Controllers\\CrController.cs",
+              "ToolTip": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Controllers\\CrController.cs",
+              "RelativeToolTip": "DBrokerAPI\\Controllers\\CrController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:39:51.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CRData.cs",
+              "DocumentMoniker": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Model\\CRData.cs",
+              "RelativeDocumentMoniker": "DBrokerAPI\\Model\\CRData.cs",
+              "ToolTip": "D:\\Sample\\DbrokerTask\\DBrokerAPI\\DBrokerAPI\\Model\\CRData.cs",
+              "RelativeToolTip": "DBrokerAPI\\Model\\CRData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:38:24.969Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

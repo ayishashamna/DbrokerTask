@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "DBrokerAPI.Controllers.CrController",
+    "Method": "GetCrData",
+    "RelativePath": "api/cr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "crRequest",
+        "Type": "DBrokerAPI.Controllers.CrController\u002BCrRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DBrokerAPI.Controllers.CrController",
+    "Method": "SaveCrData",
+    "RelativePath": "api/cr/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "DBrokerAPI.Model.CRData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

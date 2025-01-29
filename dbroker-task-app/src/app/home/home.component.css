@@ -1,0 +1,26 @@
+.frame {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap to the next line */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust gap as needed */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-wrapper {
+    text-align: center; /* Center text within each wrapper */
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 768px) { 
+    .frame {
+        gap: 15px; /* Reduce gap for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .frame {
+        gap: 10px; /* Further reduce gap for smaller screens */
+    }
+}

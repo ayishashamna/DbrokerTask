@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tajawal";
+
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Main Header Container */
+  .header {
+    display: flex;
+    justify-content: space-between; /* Position left and right sections */
+    align-items: center;
+    width: 100%; /* Span the entire width of the screen */
+    padding: 10px 20px; /* Adjust spacing */
+    background-color: #fff; /* Optional background for clarity */
+  }
+  
+  /* Left Section Styling */
+  .left-section {
+    display: inline-block;
+    padding: 10px 90px;
+    border-radius: 8px; /* Rounded corners */
+    background: linear-gradient(
+      90deg,
+      #4B92BA 0%,
+      #AEB5B7 100%
+   
+    );
+    color: #000000;
+    font-family: "Tajawal";
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .right-section {
+    display: flex;
+    gap: 15px; /* Space between items */
+    align-items: center;
+    padding: 10px 90px;
+    border-radius: 2px; /* Rounded edges */
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: linear-gradient(
+      90deg,
+      #4B92BA 0%,
+      #AEB5B7 100%
+    ); /* Gradient background */
+    color: #fff; /* Text color */
+    font-family: "Tajawal", sans-serif;
+    font-size: 14px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+  }
+   
+  .right-section span {
+    font-weight: bold;}
+ 
+  
+  /* Main Content */
+  /* Main Content */
+  .content {
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #d9d9d94f; /* Updated background color */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .content2 {
+    margin: 40px auto;
+    padding: 3px;
+    width: 60%;
+    height: 100%;
+    background-color: #ffffff; /* Updated background color */
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Section */
+  .logo-section {
+    margin-bottom: 30px;
+    display: flex;           /* Enable Flexbox */
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; 
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+
+  }
+  
+  .logo-section h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form */
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: right;
+  }
+  .message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: red;
+    text-align: right;
+  }
+  .search-form label {
+    font-size: 14px;
+    color: #000000;
+    text-align: right;
+  }
+  
+  .search-form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: right;
+    font-family: "Tajawal";
+    font-weight: bold;
+  }
+  
+  .checkbox-wrapper label {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+  }
+  
+  .search-btn {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(
+      90deg,
+      #4B92BA 0%,
+      #AEB5B7 100%
+    );
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .search-btn:hover {
+    background: linear-gradient(
+      290deg,
+      #4B92BA 0%,
+      #AEB5B7 100%
+    );
+    color: #000000;
+  }
+  .frame {
+    display: flex;
+    align-items: center; /* Align text and images vertically */
+    justify-content: center; /* Align children in the center */
+    gap: 54px; /* Space between elements */
+    direction: rtl; /* Set text and layout to right-to-left */
+  }
+  
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Tajawal";
+    font-weight: 600;
+    color: #000000;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 50.4px;
+    white-space: nowrap;
+    direction: rtl;
+   
+  }
+  
+  .frame .group {
+    position: relative;
+    width: 99px;
+    height: 21.33px;
+
+  }
+  /* Footer Container */
+.footer {
+    background-color: #f8f8f8; /* Dark background */
+    color: rgb(0, 0, 0); /* White text */
+    padding: 20px 0; /* Vertical padding */
+  }
+  
+  .footer-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between sections */
+    align-items: center; /* Align items vertically */
+    max-width: 1100px; /* Limit the width */
+    margin: 0 auto; /* Center the content */
+    padding: 0 0px; /* Horizontal padding */
+  }
+  
+  /* Left Section: Logo */
+  .footer-left {
+    flex: 1; /* Allow flexible space */
+    font-family: "Tajawal";
+    font-weight: bold;
+       text-align: left;
+       align-items: left; /* Align content to the right */
+       gap: 10px; /* Add spacing between elements */   
+  }
+  .footer-left p {
+    font-size: 10px; /* Text size */
+    font-weight: bold; /* Bold text */
+    color: rgb(95, 90, 90); /* White text */
+    margin: 0; /* Remove default margin */
+    font-family: "Tajawal";
+
+  }
+  
+  .footer-logo {
+    max-width: 150px; /* Set a fixed width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    justify-content: left;
+  }
+  
+  /* Center Section: Links */
+  .footer-center {
+    flex: 2; /* Allow flexible space */
+    text-align: center; /* Center-align text */
+  }
+  
+  .footer-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: inline-flex; /* Display links inline */
+    gap: 30px; /* Add space between links */
+  }
+  
+  .footer-links a {
+    color: rgb(0, 0, 0); /* White link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    font-family: "Tajawal";
+ }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Right Section: Social Media Icons */
+  .footer-right {
+    flex: 1; /* Allow flexible space */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack text and icons vertically */
+    justify-content: flex-start; /* Align content to the top */
+    align-items: right; /* Align content to the right */
+    gap: 10px; /* Add spacing between elements */
+    font-family: "Tajawal";
+    text-align: right;
+  }
+  
+.footer-right p {
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    color: rgb(0, 0, 0); /* White text */
+    margin: 0; /* Remove default margin */
+    font-family: "Tajawal";
+    
+  }
+  
+/* Social Media Icons */
+.footer-right .social-icons {
+    display: flex; /* Use Flexbox for the icons */
+    gap: 15px; /* Add spacing between icons */
+    justify-content: center;/*تغغير الشكل الى اليمين*/
+}
+ /* Main container */
+.logo-slider {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 0;
+  border-radius: 8px;
+  overflow: hidden; /* Prevent overflow */
+  width: 100%; /* Full container width */
+}
+
+/* Fixed Left Logo */
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-fixed {
+  flex: 0 0 auto; /* Prevent shrinking or growing */
+  width: 120px; /* Set the width of the fixed image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Center the fixed logo */
+}
+
+.logo-fixed img {
+  width: 90%; /* Ensure the image fits the container */
+  height: auto;
+}
+
+.logo-moving {
+  flex: 15; /* Take remaining space */
+  overflow: hidden; /* Hide overflow */
+  position: relative;
+}
+
+/* Track with animation */
+.logo-track {
+  display: flex;
+  width: calc(150px * 4 + 10px * 6); /* Adjust width to fit all logos */
+  animation: scroll 19s linear infinite; /* Smooth scrolling */
+}
+
+.logo-item {
+  flex: 0 0 auto; /* Prevent shrinking */
+  width: 150px; /* Set width for each logo */
+  margin: 0 10px; /* Add spacing between logos */
+}
+
+.logo-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Scrolling Animation */
+@keyframes scroll {
+  from {
+      transform: translateX(0); /* Start at the first set */
+  }
+  to {
+      transform: translateX(-100%); /* Move one full set of logos */
+  }
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 800px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+p2 {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #666;
+  text-align: left;
+  direction: ltr;
+  
+}
+
+
+.content2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container2 {
+  margin: auto;
+  padding: 20px;
+
+  background: #fff;
+  border-radius: 10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+
+}
